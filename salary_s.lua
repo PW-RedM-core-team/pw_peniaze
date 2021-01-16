@@ -19,10 +19,10 @@ local g = {}
 local canServerConsoleDebugs = false
 -- Let this false to remove console prints!
 local salaryMessages= {
-	["Money_Salary_Recive"] = "高盛银行: 您收到一张薪水支票面值: $",
+	["Money_Salary_Recive"] = "Bank: You receive a paycheck face value: $",
 }
 local noSalaryMessages={
-	["Money_Salary_Recive_No_Recive"]  = "高盛银行: 没有薪水?",
+	["Money_Salary_Recive_No_Recive"]  = "Bank: No salary?",
 }
 -- Tip Notifications
 local messageSecondsInScreen = 8 --20 by default 
