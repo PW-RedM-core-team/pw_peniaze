@@ -1,5 +1,3 @@
---> Please don't touch
-
 VorpCore = {}
 
 TriggerEvent("getCore",function(core)
