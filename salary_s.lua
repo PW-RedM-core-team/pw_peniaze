@@ -92,11 +92,7 @@ function g:Notify(msg)
 local source=source
 TriggerClientEvent("vorp:Tip", source, msg, messageSecondsInScreen*1000) 
 end
-------------------------------------------------------------------------------------------
 
--- Evento para usar a função acima no client.lua
-
-------------------------------------------------------------------------------------------
 
 AddEventHandler("salaryJobs:GIVE",function (_verifyAntiAbuse,_2)
 	if _2 == 'b' then 
